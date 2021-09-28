@@ -17,7 +17,7 @@ namespace CSharpQuizizz
             static int uncorectAnswersCount;
             static int corectAnswersCount;
             static double result;
-            static bool Eexit;
+            static bool Exit;
 
             private static void ShowProgramTitle()
             {
@@ -55,8 +55,8 @@ namespace CSharpQuizizz
             }
             static void ReadQwestion(string pathToFile)
             {
-                Eexit = false;
-                while (!Eexit)
+                Exit = false;
+                while (!Exit)
                 {
                         FileStream fin;
                             try
@@ -147,7 +147,7 @@ namespace CSharpQuizizz
                 
                 Console.WriteLine("Would you like to take the test again? If not type: \"exit\"");
                 string ch = Console.ReadLine();
-                if (ch == "exit")  Eexit = true;
+                if (ch == "exit")  Exit = true;
             }
         }
 }
