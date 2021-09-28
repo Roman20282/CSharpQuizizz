@@ -1,0 +1,52 @@
+N: 7
+V: 4
+-----------------------------------------------------------------
+1/7.   Who was the main creator of C #?
+Denis Richie
+James Gosling
+Guido van Rossum
+Anders Hejlsberg
+Corect answer: 4
+============================================
+2/7.  Which of the methods below is the entry point for console applications?
+public static void Program()
+public static void Main()
+public static void main()
+None of the above
+Corect answer: 2
+============================================
+3/7. Which of the following types are value types?
+Int32
+Double
+Decimal
+All of the above
+Corect answer: 4
+============================================
+4/7.  What types are nullable in C #?
+Those that allow you to assign null to reference types
+Those that allow you to assign null to value types
+Those that allow you to assign null to static classes
+None of the above
+Corect answer: 2
+============================================
+5/7.  The Struct is ____?
+Reference type
+Value type
+Class type
+String type
+Corect answer: 2
+============================================
+6/7.  Which type can be used with enum?
+int
+string
+boolean
+All of the above
+Corect answer: 1
+============================================
+7/7.  What is an indexer?
+It allows an instance of a class to be indexed like an array
+It allows to use an enumerator with the class
+It createsindex for instances of a class
+None of the above
+Corect answer: 1
+============================================
